@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ACC35B020531513001B1C74 /* TCPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC35AE20531513001B1C74 /* TCPClient.cpp */; };
 		4AE0AD832053003B000DE908 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0AD822053003B000DE908 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4ACC35AE20531513001B1C74 /* TCPClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TCPClient.cpp; sourceTree = "<group>"; };
+		4ACC35AF20531513001B1C74 /* TCPClient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TCPClient.hpp; sourceTree = "<group>"; };
 		4AE0AD7F2053003B000DE908 /* TetrisAi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TetrisAi; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0AD822053003B000DE908 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				4AE0AD822053003B000DE908 /* main.cpp */,
+				4ACC35AE20531513001B1C74 /* TCPClient.cpp */,
+				4ACC35AF20531513001B1C74 /* TCPClient.hpp */,
 			);
 			path = TetrisAi;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACC35B020531513001B1C74 /* TCPClient.cpp in Sources */,
 				4AE0AD832053003B000DE908 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
